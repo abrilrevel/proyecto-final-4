@@ -462,6 +462,7 @@ footer {
     background-size: cover;
     background-position: center ;
     background-color: transparent;
+    filter:alpha(opacity=70);
 }
 
 #fotoSupport {
@@ -471,6 +472,7 @@ footer {
     background-size: cover;
     background-position: center ;
     background-color: transparent;
+    opacity: 0,8;
 }
 
 .merch {
@@ -550,6 +552,7 @@ input[type=submit]:hover {
     background-size: cover;
     background-position: center;
     background-color: transparent;
+    opacity: 0,8;
 }
 
 #carouselExampleFade  {

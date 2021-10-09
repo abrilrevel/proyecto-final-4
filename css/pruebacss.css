@@ -327,7 +327,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: transparent; }
+  background-color: transparent;
+  filter: alpha(opacity=70); }
 
 #fotoSupport {
   background-image: url(../img/support-groups.png);
@@ -335,7 +336,8 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: transparent; }
+  background-color: transparent;
+  opacity: 0,8; }
 
 .merch {
   display: flex;
@@ -397,7 +399,8 @@ input[type=submit]:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: transparent; }
+  background-color: transparent;
+  opacity: 0,8; }
 
 #carouselExampleFade {
   margin-bottom: 50px;
