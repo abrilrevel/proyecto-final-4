@@ -133,7 +133,8 @@ nav {
 .listaIndex {
   font-size: 1em;
   font-weight: bolder;
-  color: black; }
+  color: black;
+  list-style-type: none; }
 
 .parrafoAbout p {
   color: black;
@@ -202,13 +203,14 @@ nav {
   background-size: cover;
   background-position: center;
   padding: 50px 0;
-  background-color: transparent; }
+  background-color: transparent;
+  opacity: 1; }
 
 #ultimoParrafoContact p {
-  color: blueviolet;
+  color: #000000;
   font-weight: bolder;
-  font-size: 20px;
-  text-shadow: 0px 0px 10px black; }
+  font-size: 1,9em;
+  text-shadow: 0px 0px 10px white; }
 
 /* Sub Menu */
 .mainHeader li {
@@ -452,6 +454,9 @@ input[type=submit]:hover {
   color: black;
   margin-top: 18px; }
 
+html {
+  scroll-behavior: smooth; }
+
 #goTopBtn {
   position: fixed;
   width: 50px;
@@ -483,3 +488,8 @@ input[type=submit]:hover {
     max-width: 90vw; }
   nav ul li {
     font-weight: 800 !important; } }
+
+@media only screen and (max-width: 700px) {
+  .mensajes-support {
+    display: flex;
+    flex-direction: column; } }
