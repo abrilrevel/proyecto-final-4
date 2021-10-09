@@ -110,7 +110,10 @@ nav {
 .segundoParrafo {
   padding: 2px;
   top: 20px;
-  color: black; }
+  color: black;
+  font-size: 2em;
+  font-weight: normal;
+  font-family: monospace; }
 
 /* Header About */
 .secondHeader {
@@ -123,9 +126,14 @@ nav {
     display: inline-block;
     width: 210px; }
 
-section h1 {
+.tituloIndex h1 {
   color: teal;
   font-weight: bold; }
+
+.listaIndex {
+  font-size: 1em;
+  font-weight: bolder;
+  color: black; }
 
 .parrafoAbout p {
   color: black;
@@ -135,7 +143,10 @@ section h1 {
 #parrafoDosAbout {
   margin: 100px 0; }
   #parrafoDosAbout p {
-    color: black; }
+    color: #ffc559;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic; }
 
 .seccionAbout {
   background-color: rgba(138, 228, 223, 0.945) !important; }
@@ -174,7 +185,7 @@ section h1 {
 
 .parrafosContact p {
   color: black;
-  font-size: 20px;
+  font-size: 2em;
   font-weight: bolder;
   display: flex;
   justify-content: center;
@@ -380,6 +391,14 @@ input[type=submit]:hover {
   padding: 20px;
   margin: 20px; }
 
+#imagenMerch {
+  background-image: url(../img/foto-local.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent; }
+
 #carouselExampleFade {
   margin-bottom: 50px;
   margin-top: 30px; }
@@ -390,17 +409,12 @@ input[type=submit]:hover {
   padding: 10px; }
 
 .carousel-inner img {
-  width: 100%;
-  max-height: 460px; }
+  width: 100% !important;
+  padding-left: 100px;
+  padding-right: 100px; }
 
 .carousel-inner {
   height: 500px; }
-
-.carousel-inner:hover {
-  transform: scale(115%);
-  transition: all 2s;
-  transition-duration: 2s;
-  transition-timing-function: ease-in-out; }
 
 .carousel-control-prev-icon {
   height: 100px;
@@ -419,6 +433,32 @@ input[type=submit]:hover {
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid black; }
+
+#iframeMaps {
+  padding: 20px;
+  margin: 20px; }
+
+.parrafoIframe p {
+  font-weight: bolder;
+  font-size: 3em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgba(138, 228, 223, 0.945);
+  text-shadow: 0px 0px 15px black; }
+
+.far {
+  color: black;
+  margin-top: 18px; }
+
+#goTopBtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: rgba(138, 228, 223, 0.945);
+  bottom: 70px;
+  right: 40px;
+  text-decoration: none;
+  text-align: center !important;
+  line-height: 50px; }
 
 .contactForm {
   font-size: 3em;
